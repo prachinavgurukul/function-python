@@ -1,4 +1,6 @@
-# def employee(name,salary=20000):
-#     print(name,"your salary is:-",salary)
-# employee("kartik",30000)
-# employee("deepak")
+def eligibleforvote(age):
+    if age>18:
+        print("you are eligible for vote")
+    else:
+        print("you are not eligible for vote")
+eligibleforvote(17)

@@ -1,12 +1,18 @@
-def primeornote(num):
-    if num>1:
-        for i in range(2,num):
-            if (num%i)==0:
-                print(num,"is not a prime number")
-                print(i,"times",num//i,"is",num)
-                break
-            else:
-                print(num,"is a prime no")
-    else:
-        print(num,"is not a prime number")
-primeornote(406)
+# def perfect(n):
+#   sum=0
+#   i=1
+#   if n<=0:
+#     print("invalid no")
+#   else:
+#     while i<n:
+#         if n%i==0:
+#             sum=sum+i
+#         i=i+1
+#     if sum==n:
+#         print(n,"is perfect no")
+#     else:
+#         print(n,"is not perfect no")
+# perfect(7)
+
+
+        
